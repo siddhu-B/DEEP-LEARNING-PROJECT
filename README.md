@@ -2,7 +2,7 @@
 
 "COMPANY":CODETECH IT SOLUTIONS
 
-"NAME":B Siddu
+"NAME":B SIDDU
 
 "INTERN ID":CT04DF448
 
@@ -34,3 +34,5 @@ Visualizing Accuracy To understand how well the model is learning, we plot the t
 
 
 This code represents a complete sentiment analysis pipeline using deep learning. From data preprocessing to model building, training, visualization, prediction, and exporting results, every step is handled efficiently. The use of an LSTM network makes it powerful in capturing the meaning and structure of sentences, especially in tasks where word order matters.
+
+![Image](https://github.com/user-attachments/assets/7f19d300-1a25-408b-89b3-15d84793c6a4)
