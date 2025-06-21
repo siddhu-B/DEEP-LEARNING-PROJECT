@@ -32,16 +32,4 @@ plt.ylabel('Accuracy')
 plt.legend()
 plt.show()
 
-#The following code predicts and saves for first 100 test samples
-pred_probs = model.predict(x_test[:100])
-pred_labels = (pred_probs > 0.5).astype(int)
-true_labels = y_test[:100]
 
-# Saveing the file
-#results_df = pd.DataFrame({
-    #'Predicted Probability': pred_probs.flatten(),
-    #'Predicted Label': pred_labels.flatten(),
-    #'True Label': true_labels
-#})
-#results_df.to_csv('imdb_predictions.csv', index=False)
-#print("Saved results to imdb_predictions.csv")
